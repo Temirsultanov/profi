@@ -71,6 +71,7 @@ body {
 
     color: var(--black);
     appearance: none;
+    -webkit-appearance: none;
 }
 .input::placeholder {
     color: var(--grey);
@@ -83,10 +84,12 @@ body {
     border: none;
     border-radius: var(--borderRadius);
 
+    font-size: inherit;
     text-align: center;
 
     background-color: var(--red);
     color: var(--white);
 
     cursor: pointer;    
+    appearance: none;
 }
